@@ -1,0 +1,23 @@
+
+public class LibraryApp {
+public static void main(String [] args) {
+	Library l= new Library();
+	l.setName("Pentagin Space");
+	l.setAddress("Bangalore");
+	
+	Book b1=new Book();
+	b1.setTitle("Harry Potter");
+	b1.setAuthor("J.K. Rowling");
+	b1.setIsbn("23456789");
+	
+	Book b2=new Book();
+	b2.setTitle("To Kill a Mockingbird ");
+	b2.setAuthor("Harper Lee ");
+	b2.setIsbn("67456789");
+	
+	l.displayBookDetails(b1);
+	l.displayBookDetails(b2);
+	
+    	
+}
+}
